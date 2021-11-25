@@ -5,26 +5,27 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <title>Document</title>
+        <title>Projeto - Lessons Learned</title>
     </head>
     <body>
         <header id="cabecalho">
             <h1 id="titulo">Projeto - Lessons Learned</h1>
-            <nav>
+            <nav class="menu">
                 <a href="#minha_foto">Perfil</a>
-                <a href="#licoes">Lições</a>
+                <a href="#aprendizados">Lições</a>
                 <a href="#tryber">Tryber</a>
                 <a href="#contato">Contato</a>
             </nav>
         </header>
         
-        <main>
+        <main id="conteudo">
             <section>
                 <img src="img/minelli.png" alt="Fotografia de Bruno Minelli" id="minha_foto">
             </section>
-            <section id="licoes">
-                <h2>Lições</h2>
+            <section id="aprendizados" class="blocos">
+                <h2>Aprendizados</h2>
                 <section>
+                    <h3>O que aprendi?</h3>
                     <ol id="licoes_aprendidas">
                         <li>Unix</li>
                         <li>Git</li>
@@ -40,6 +41,7 @@
                 </section>
 
                 <section>
+                    <h3>O que quero aprender?</h3>
                     <ul id="licoes_a_aprender">
                         <li>Testes Unitários</li>
                         <li>Testes Assíncronos</li>
@@ -55,9 +57,9 @@
                 </section>
             </section>
 
-            <section id="tryber">
-                <h2>Aprendizado na Trybe</h2>
+            <section id="tryber" class="blocos">             
                 <article>
+                    <h2>Aprendizado na Trybe</h2>
                     <p>Nos três primeiros blocos do curso de Desenvolvimento Web da Trybe, eu aprendi os primeiros fundamendos para me tornar uma pessoa desenvolvedora.</p>
                     <p>Os aprendizados até o momento foram:</p>
                     <ul>
@@ -67,8 +69,8 @@
                         <li>Introdução a HTML e CSS</li>
                     </ul>
                 </article>
-                <h3>Experiência Tryber</h3>
-                <aside>
+                <aside id="">
+                    <h3>Experiência Tryber</h3>
                     <p>A experiência que a Trybe transmite é de uma empresa com equipe descentralizada desde o primeiro dia de curso. Eu me sinto como se já estivesse atuando no mercado de desenvolvimento.</p>
                 </aside>
             </section>
