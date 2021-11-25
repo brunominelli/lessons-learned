@@ -10,7 +10,7 @@
     <body>
         <header id="cabecalho">
             <h1 id="titulo">Projeto - Lessons Learned</h1>
-            <nav class="menu">
+            <nav class="menu menu_cabecalho">
                 <a href="#minha_foto">Perfil</a>
                 <a href="#aprendizados">Lições</a>
                 <a href="#tryber">Tryber</a>
@@ -19,11 +19,28 @@
         </header>
         
         <main id="conteudo">
-            <section>
+            <section class="blocos">
                 <img src="img/minelli.png" alt="Fotografia de Bruno Minelli" id="minha_foto">
+                <h2>Bruno Minelli de Almeida</h2>
             </section>
-            <section id="aprendizados" class="blocos">
-                <h2>Aprendizados</h2>
+            <section id="tryber" class="blocos lado_esquerdo">             
+                <article>
+                    <h2>Aprendizado na Trybe</h2>
+                    <p>Nos três primeiros blocos do curso de Desenvolvimento Web da Trybe, eu aprendi os primeiros fundamendos para me tornar uma pessoa desenvolvedora.</p>
+                    <p>Os aprendizados até o momento foram:</p>
+                    <ul>
+                        <li>Unix, Shell e Bash;</li>
+                        <li>Git e GitHub;</li>
+                        <li>Internet e como ela funciona e;</li>
+                        <li>Introdução a HTML e CSS</li>
+                    </ul>
+                </article>
+                <aside>
+                    <h3>Experiência Tryber</h3>
+                    <p>A experiência que a Trybe transmite é de uma empresa com equipe descentralizada desde o primeiro dia de curso. Eu me sinto como se já estivesse atuando no mercado de desenvolvimento.</p>
+                </aside>
+            </section>
+            <section id="aprendizados" class="blocos lado_direito">
                 <section>
                     <h3>O que aprendi?</h3>
                     <ol id="licoes_aprendidas">
@@ -56,27 +73,9 @@
                     </ul>
                 </section>
             </section>
-
-            <section id="tryber" class="blocos">             
-                <article>
-                    <h2>Aprendizado na Trybe</h2>
-                    <p>Nos três primeiros blocos do curso de Desenvolvimento Web da Trybe, eu aprendi os primeiros fundamendos para me tornar uma pessoa desenvolvedora.</p>
-                    <p>Os aprendizados até o momento foram:</p>
-                    <ul>
-                        <li>Unix, Shell e Bash;</li>
-                        <li>Git e GitHub;</li>
-                        <li>Internet e como ela funciona e;</li>
-                        <li>Introdução a HTML e CSS</li>
-                    </ul>
-                </article>
-                <aside id="">
-                    <h3>Experiência Tryber</h3>
-                    <p>A experiência que a Trybe transmite é de uma empresa com equipe descentralizada desde o primeiro dia de curso. Eu me sinto como se já estivesse atuando no mercado de desenvolvimento.</p>
-                </aside>
-            </section>
         </main>
         <footer id="rodape">
-            <nav id="contato">
+            <nav id="contato" class="menu">
                 <a href="https://www.rabiscandomundos.com" target="_blank">Rabiscando Mundos</a>
                 <a href="https://github.com/obrunominelli" target="_blank">GitHub</a>
                 <a href="https://www.linkedin.com/in/obrunominelli" target="_blank">LinkedIn</a>
