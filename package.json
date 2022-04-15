@@ -1,32 +1,38 @@
 {
-  "name": "sd-03-week3-html-css-project",
-  "version": "1.0.0",
-  "description": "Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀",
-  "main": "index.js",
+  "name": "lessons-learned",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.0.1",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
   "scripts": {
-    "test": "cypress run",
-    "lint:styles": "stylelint **/*.css --config .stylelintrc.json --ignore-disables --allow-empty-input",
-    "cypress:open": "cypress open"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tryber/sd-03-week3-html-css-project-tests.git"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tryber/sd-03-week3-html-css-project-tests/issues"
-  },
-  "homepage": "https://github.com/tryber/sd-03-week3-html-css-project-tests#readme",
-  "devDependencies": {
-    "cypress": "^5.0.0",
-    "cypress-multi-reporters": "^1.2.3",
-    "minimist": ">=1.2.2",
-    "mocha": "^7.0.1",
-    "mochawesome": "^4.1.0",
-    "mochawesome-merge": "^4.0.0",
-    "mochawesome-report-generator": "^4.1.0",
-    "stylelint": "^13.8.0",
-    "stylelint-config-standard": "^20.0.0"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
