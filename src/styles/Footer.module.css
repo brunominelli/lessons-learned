@@ -9,10 +9,15 @@
   background-color: var(--primary-dark);
 }
 
+.footer > p {
+  margin-bottom: 0.5rem;
+}
+
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin: 1rem;
 }
 
 .nav > a {
@@ -49,7 +54,11 @@
     width: 100%;
   }
 
+  .nav > a {
+    margin: 0.5rem;
+  }
+
   .social_link {
-    width: 25%;
+    width: 20%;
   }
 }
